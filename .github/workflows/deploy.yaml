@@ -42,9 +42,9 @@ jobs:
           yarn build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: master
-          FOLDER: public
+          BRANCH: gh-pages
+          FOLDER: dist
           REPOSITORY_NAME: https://axi443.github.io/blog
