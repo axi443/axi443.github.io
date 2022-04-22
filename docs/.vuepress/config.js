@@ -9,16 +9,16 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: `/images/logo/web-head-yuan.png`
+        href: `/blog/dist/images/logo/web-head-yuan.png`
       }
     ],
     [
       "link",
       {
         rel: "icon",
-        type: "image/png",
+        type: "image/webp",
         sizes: "32x32",
-        href: `/images/logo/web-head.webp`
+        href: `/blog/dist/images/logo/web-head.webp`
       }
     ],
     ["meta", { name: "application-name", content: "Xi A" }],
@@ -81,7 +81,7 @@ module.exports = {
         path: "/images/home-bg/home-bg-1.jpg"
       },
       {
-        path: "/images/tou-xiang.webp",
+        path: "/images/logo/tou-xiang.webp",
         mask: "rgba(40, 57, 101, .4)"
       },
       {
