@@ -61,7 +61,7 @@ module.exports = {
       }
     },
 
-    // 首页背景图
+    // 首页背景图,支持网络图片
     homeHeaderImages: [
       {
         path: "/images/home-bg/home-bg-5.jpg",
