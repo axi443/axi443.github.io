@@ -2,11 +2,10 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs --clean-cache",
-    "build": "vuepress build docs --clean-cache"
+    "build": "vuepress build docs --clean-cache --dest dist"
   },
   "author": "",
   "license": "ISC",
@@ -19,7 +18,6 @@
     "@renovamen/vuepress-plugin-katex": "^2.0.0-alpha.15",
     "@renovamen/vuepress-plugin-md-plus": "^2.0.0-alpha.5",
     "@renovamen/vuepress-plugin-mermaid": "^2.0.0-alpha.20",
-    "oh-vue-icons": "^1.0.0-rc2",
     "vuepress-plugin-chart": "^2.0.0-alpha.19"
   }
 }

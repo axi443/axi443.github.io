@@ -1,4 +1,5 @@
 module.exports = {
+  base: "/blog/dist/",
   title: "Xi A",
   description: "嗖嘎朋友们，这是描述.",
   head: [
@@ -8,16 +9,16 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: `/images/logo/web-head-yuan.png`
+        href: `/blog/dist/images/logo/web-head-yuan.png`
       }
     ],
     [
       "link",
       {
         rel: "icon",
-        type: "image/png",
+        type: "image/webp",
         sizes: "32x32",
-        href: `/images/logo/web-head.webp`
+        href: `/blog/dist/images/logo/web-head.webp`
       }
     ],
     ["meta", { name: "application-name", content: "Xi A" }],
@@ -60,7 +61,7 @@ module.exports = {
       }
     },
 
-    // 首页背景图
+    // 首页背景图,支持网络图片
     homeHeaderImages: [
       {
         path: "/images/home-bg/home-bg-5.jpg",
@@ -80,7 +81,7 @@ module.exports = {
         path: "/images/home-bg/home-bg-1.jpg"
       },
       {
-        path: "/images/tou-xiang.webp",
+        path: "/images/logo/tou-xiang.webp",
         mask: "rgba(40, 57, 101, .4)"
       },
       {
@@ -165,8 +166,8 @@ module.exports = {
         icon: "fa-link"
       },
       {
-        text: "Portfolio",
-        link: "",
+        text: "404",
+        link: "/home",
         icon: "oi-rocket"
       }
     ],
@@ -175,7 +176,7 @@ module.exports = {
       &copy; <a href="https://github.com/axi443" target="_blank">A Xi</a> 2022-2022
       <br>
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
-      <a href="https://v2-vuepress-theme-gungnir.vercel.app/" target="_blank">Gungnir</a>
+      <a href="https://v2-vuepress-theme-gungnir.vercel.app/docs/basic/intro.html#live-demos" target="_blank">Gungnir</a>
     `
   },
   markdown: {

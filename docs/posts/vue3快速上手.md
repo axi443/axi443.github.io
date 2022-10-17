@@ -97,7 +97,11 @@ vite官网：<https://vitejs.cn>
   - 真正的按需编译，不再等待整个应用编译完成。
 - 传统构建 与 vite构建对比图
 
-<img src="https://cn.vitejs.dev/assets/bundler.37740380.png" style="width:500px;height:280px;" /><img src="https://cn.vitejs.dev/assets/esm.3070012d.png" style="width:500px;height:280px" />
+<!-- <img src="https://cn.vitejs.dev/assets/bundler.37740380.png" style="width:500px;height:280px;" /><img src="https://cn.vitejs.dev/assets/esm.3070012d.png" style="width:500px;height:280px" /> -->
+
+<img src="https://img-blog.csdnimg.cn/20211012113141139.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5Y-v6IO95piv5bCP5p2O5ZCn,size_20,color_FFFFFF,t_70,g_se,x_16" style="width:600px;height:380px;" />
+
+<img src="https://img-blog.csdnimg.cn/20211012113156940.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5Y-v6IO95piv5bCP5p2O5ZCn,size_20,color_FFFFFF,t_70,g_se,x_16" style="width:600px;height:380px" />
 
 ```bash
 ### 创建工程
@@ -322,12 +326,12 @@ npm run dev
 <!-- ![图片名称](https://cn.vuejs.org/images/lifecycle.png) -->
 <div style="border:1px solid black;">
   <strong>vue2.x的生命周期</strong>
-  <img src="https://cn.vuejs.org/images/lifecycle.png" alt="lifecycle_2" style="zoom:40%;"/>
+  <img src="https://v2.cn.vuejs.org/images/lifecycle.png" alt="lifecycle_2" style="zoom:40%;"/>
 </div>
 <br/>
 <div style="border:1px solid black;height:1270px">
   <strong>vue3.0的生命周期</strong>
-  <img src="https://v3.cn.vuejs.org/images/lifecycle.svg" alt="lifecycle_2" style="zoom:90%;" />
+  <img src="https://cn.vuejs.org/assets/lifecycle.16e4c08e.png" alt="lifecycle_2" style="zoom:90%;" />
 </div>
 
 - Vue3.0中可以继续使用Vue2.x中的生命周期钩子，但有有两个被更名：
@@ -444,7 +448,8 @@ npm run dev
 
 ### 5.provide 与 inject
 
-<img src="https://v3.cn.vuejs.org/images/components_provide.png" style="width:300px" />
+<img src="https://cn.vuejs.org/assets/provide-inject.3e0505e4.png" />
+<!-- <img src="https://v3.cn.vuejs.org/images/components_provide.png" style="width:300px" /> -->
 
 - 作用：实现<strong style="color:#DD5145">祖与后代组件间</strong>通信
 

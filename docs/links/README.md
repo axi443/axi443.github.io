@@ -4,6 +4,10 @@ title: Links
 links:
   - title: 菜🐔
     items:
+      - sitename: blog
+        url: https://github.com/axi443/blog
+        img: /images/logo/web-head-yuan.png
+        desc: my personal blog
       - sitename: echarts
         url: https://axi443.github.io/pink/echarts/index.html
         img: /images/tou-xiang.webp
