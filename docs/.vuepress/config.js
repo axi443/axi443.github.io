@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/blog/dist/",
+  // base: "/blog/dist/",
   title: "Xi A",
   description: "嗖嘎朋友们，这是描述.",
   head: [
@@ -9,8 +9,8 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: `/blog/dist/images/logo/web-head-yuan.png`
-        // href: `/images/logo/web-head-yuan.png`
+        // href: `/blog/dist/images/logo/web-head-yuan.png`
+        href: `/images/logo/web-head-yuan.png`
       }
     ],
     [
@@ -19,8 +19,8 @@ module.exports = {
         rel: "icon",
         type: "image/webp",
         sizes: "32x32",
-        href: `/blog/dist/images/logo/web-head.webp`
-        // href: `/images/logo/web-head.webp`
+        // href: `/blog/dist/images/logo/web-head.webp`
+        href: `/images/logo/web-head.webp`
       }
     ],
     ["meta", { name: "application-name", content: "Xi A" }],
