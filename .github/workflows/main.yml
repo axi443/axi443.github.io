@@ -39,5 +39,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.ACCESS_TOKEN }}
-          publish_dir: docs/.vuepress/dist  # 静态文件生成目录
+          BRANCH: gh-pages
+          # 部署目录为 VuePress 的默认输出目录，这里需要根据项目的目录进行修改
+          FOLDER: docs/.vuepress/dist
+          # publish_dir: docs/.vuepress/dist  # 静态文件生成目录
           cname: axi443.github.io
