@@ -40,6 +40,5 @@ jobs:
         with:
           github_token: ${{ secrets.ACCESS_TOKEN }}
           # 部署目录为 VuePress 的默认输出目录
-          build_dir: docs/.vuepress/dist
-          REPOSITORY_NAME: axi443.github.io
-          # publish_dir: /dist  # 静态文件生成目录
+          REPOSITORY_NAME: axi443.github.io/blog/dist
+          publish_dir: /dist  # 静态文件生成目录
