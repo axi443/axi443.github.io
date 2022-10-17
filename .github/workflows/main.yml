@@ -36,7 +36,7 @@ jobs:
       # 打包并生成静态文件
       - name: Build
         run: 
-          yarn install --frozen-lockfile
+          # yarn install --frozen-lockfile
           yarn build
 
       - name: Deploy
