@@ -30,7 +30,7 @@ import {
   // qq
   CoTencentQq
 } from "oh-vue-icons/icons";
-import About from "./components/About.vue"
+import About from "./components/about.vue"
 
 addIcons(
   CoTencentQq,
