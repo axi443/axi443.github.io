@@ -4,4 +4,3 @@ docs/.vuepress/.temp
 .DS_Store
 
 dist
-deploy.yaml
