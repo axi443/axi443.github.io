@@ -1,1 +1,49 @@
+# .github/workflows/deploy.yaml
+
+name: build and deploy
+
+on:
+  push:
+    branches: [ master ]  # master 分支有 commit 时自动触发该 workflow
+
+jobs:
+  build-and-deploy-vuepress:  # 随便起个名字
+    # 配置运行该 workflow 的系统
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # 配置 Node.js
+      - name: Setup Node
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: '12'
+
+      - name: Get yarn cache
+        id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      # 打包并生成静态文件
+      - name: Build
+        run: 
+          yarn install --frozen-lockfile
+          yarn build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          target_branch: gh-pages
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_dir: dist
+          # cname: axi443.github.io
 
