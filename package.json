@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev docs --clean-cache",
-    "build": "vuepress build docs --clean-cache --dest dist"
+    "docs:dev": "vuepress dev docs --clean-cache",
+    "docs:build": "vuepress build docs --clean-cache --dest dist"
   },
   "author": "",
   "license": "ISC",
