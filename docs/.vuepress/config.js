@@ -1,5 +1,5 @@
 module.exports = {
-  // base: "/blog/dist/",
+  base: "/blog",
   title: "Xi A",
   description: "嗖嘎朋友们，这是描述.",
   head: [
