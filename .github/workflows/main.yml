@@ -1,11 +1,12 @@
-# .github/workflows/deploy.yaml
-
+# name 可以自定义
 name: build-and-deploy
 
+# 触发条件
 on:
   push:
     branches: [ master ]  # main 分支有 commit 时自动触发该 workflow
 
+# 任务
 jobs:
   build-and-deploy:  # 随便起个名字
     # 配置运行该 workflow 的系统
@@ -13,7 +14,7 @@ jobs:
 
     env:
       NODE_VERSION: '16'
-
+    # 步骤
     steps:
       - uses: actions/checkout@v3
         with:
@@ -38,9 +39,10 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
+          # 部署到 gh-pages 分支
+          target_branch: gh-pages
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          branch: gh-pages
           # 部署目录为 VuePress 的默认输出目录，这里需要根据项目的目录进行修改
           FOLDER: docs/.vuepress/dist
           # publish_dir: docs/.vuepress/dist  # 静态文件生成目录
-          cname: axi443.github.io
