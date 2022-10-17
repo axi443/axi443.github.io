@@ -8,11 +8,11 @@ yarn install
 Start developing the site:
 
 ```bash
-yarn dev
+yarn docs:dev
 ```
 
 Build for production with minification:
 
 ```bash
-yarn build
+yarn docs:build
 ```
