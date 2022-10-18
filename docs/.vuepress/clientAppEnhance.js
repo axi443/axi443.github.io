@@ -28,11 +28,20 @@ import {
   // github
   RiGithubLine,
   // qq
-  CoTencentQq
+  CoTencentQq,
+  // hand
+  FaRegularHandSpock,
+  // more
+  MdMoreOutlined,
+  // more
+  MdMoretimeOutlined
 } from "oh-vue-icons/icons";
 import About from "./components/about.vue"
 
 addIcons(
+  MdMoretimeOutlined,
+  MdMoreOutlined,
+  FaRegularHandSpock,
   CoTencentQq,
   RiGithubLine,
   RiMailCheckLine,

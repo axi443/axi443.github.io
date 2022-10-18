@@ -108,7 +108,7 @@ module.exports = {
           path: "/images/home-bg/home-bg-4.jpg",
           mask: "rgba(64, 118, 190, .1)"
         }
-      }
+      },
     },
     themePlugins: {
       // only enable git plugin in production mode
@@ -145,6 +145,7 @@ module.exports = {
       pwa: false
     },
     navbar: [
+      // NavbarItem
       {
         text: "Home",
         link: "/",
@@ -167,9 +168,26 @@ module.exports = {
       },
       {
         text: "404",
-        link: "/home",
+        link: "/home/",
         icon: "oi-rocket"
-      }
+      },
+      // NavbarGroup
+      {
+        text: 'To be continued',
+        icon: "md-more-outlined",
+        children: [
+          {
+            text: "集大家之所成",
+            link: "/more/",
+            icon: "fa-regular-hand-spock"
+          },
+          {
+            text: "未完待续...",
+            link: "/more/wwdx/",
+            icon: "md-moretime-outlined"
+          }
+        ],
+      },
     ],
 
     footer: `
