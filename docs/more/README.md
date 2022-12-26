@@ -1,6 +1,26 @@
 
 # 优秀文章推荐
 
+## 综合
+[被删的前端游乐场](http://www.godbasin.com/)
+
+[前端设计模式](https://pattern.windliang.wang/)
+
+[优质编程资源](https://www.code-nav.cn/)
+
+[fly63前端网](https://www.fly63.com/)
+
+[xiaoreya文章集合](https://www.yuque.com/xiaore-dgwek/prvhgp)
+
+[菜鸟实例归档](https://c.runoob.com/examples/)
+
+[前端博客](https://godbasin.github.io/)
+
+[万事指南](https://zh.wikihow.com/%E9%A6%96%E9%A1%B5)
+
+[熊猫搜索读书学习导航站](https://xmsoushu.com/index.html#/)
+
+
 
 ## 计算机基础
 
