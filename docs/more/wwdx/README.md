@@ -2,7 +2,7 @@
 
 TIPS：
 
-&nbsp;&nbsp;&nbsp;&nbsp;还是什么也没有呢
+&nbsp;&nbsp;&nbsp;&nbsp;There's nothing here.
 
 &nbsp;&nbsp;&nbsp;&nbsp;......
 

@@ -37,6 +37,7 @@ import {
   MdMoretimeOutlined
 } from "oh-vue-icons/icons";
 import About from "./components/about.vue"
+import Resume from "./components/resume.vue"
 
 addIcons(
   MdMoretimeOutlined,
@@ -68,4 +69,5 @@ addIcons(
 
 export default defineClientAppEnhance(({ app }) => {
   app.component("About", About);
+  app.component("Resume",Resume);
 });

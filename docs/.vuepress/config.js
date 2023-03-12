@@ -167,9 +167,20 @@ module.exports = {
         icon: "fa-link"
       },
       {
-        text: "404",
-        link: "/home/",
-        icon: "oi-rocket"
+        text: 'Me',
+        icon: "oi-rocket",
+        children: [
+          {
+            text: "Resume",
+            link: "/resume/",
+            icon: "fa-regular-hand-spock"
+          },
+          {
+            text: "404",
+            link: "/404/",
+            icon: "oi-rocket"
+          }
+        ],
       },
       // NavbarGroup
       {
