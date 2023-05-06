@@ -202,7 +202,7 @@ module.exports = {
     ],
 
     footer: `
-      &copy; <a href="https://github.com/axi443" target="_blank">A Xi</a> 2022-2022
+      &copy; <a href="https://github.com/axi443" target="_blank">A Xi</a> 2022-2023
       <br>
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://v2-vuepress-theme-gungnir.vercel.app/docs/basic/intro.html#live-demos" target="_blank">Gungnir</a>
