@@ -1,0 +1,1 @@
+const e={key:"v-a91e9eee",path:"/resume/",title:"resume",lang:"en-US",frontmatter:{layout:"resume",title:"resume",avatar:"/images/tou-xiang2.jpg",name:"A Xi",subname:"a xi",useHeaderImage:!0},excerpt:"",headers:[],git:{updatedTime:1678631728e3},readingTime:{minutes:1,words:0},filePathRelative:"resume/README.md"};export{e as data};

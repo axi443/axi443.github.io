@@ -1,0 +1,1 @@
+const e={key:"v-d5c9708c",path:"/more/wwdx/",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1678631728e3},readingTime:{minutes:1,words:31},filePathRelative:"more/wwdx/README.md"};export{e as data};
