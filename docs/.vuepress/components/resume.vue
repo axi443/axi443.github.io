@@ -50,9 +50,7 @@ const show = ref(true);
 const showCower = ref(true);
 const modalTitle = ref("请输入访问密码");
 const inputValue = ref("");
-// const srcPdf = ref("/resume.pdf");
-const srcPdf = ref("https://github.com/axi443/blog/blob/master/docs/.vuepress/public/resume.pdf");
-
+const srcPdf = ref("/blog/resume.pdf");
 const getfocus = ref(null);
 const loadJs = (src) => {
   let script = document.createElement("script");
