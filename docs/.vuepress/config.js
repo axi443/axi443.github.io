@@ -81,7 +81,7 @@ module.exports = {
         path: "/images/home-bg/home-bg-1.jpg"
       },
       {
-        path: "/images/logo/tou-xiang.webp",
+        path: "/images/tou-xiang.webp",
         mask: "rgba(40, 57, 101, .4)"
       },
       {
